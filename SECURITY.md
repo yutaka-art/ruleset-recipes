@@ -1,31 +1,31 @@
-Thanks for helping make GitHub safe for everyone.
+皆さまのご協力により、GitHub を誰にとっても安全な場所にすることができます。ありがとうございます。
 
-# Security
+# セキュリティ
 
-GitHub takes the security of our software products and services seriously, including all of the open source code repositories managed through our GitHub organizations, such as [GitHub](https://github.com/GitHub).
+GitHub は、[GitHub](https://github.com/GitHub) などの GitHub 組織で管理されているすべてのオープンソースコードリポジトリを含め、ソフトウェア製品およびサービスのセキュリティを重要視しています。
 
-Even though [open source repositories are outside of the scope of our bug bounty program](https://bounty.github.com/index.html#scope) and therefore not eligible for bounty rewards, we will ensure that your finding gets passed along to the appropriate maintainers for remediation. 
+[オープンソースリポジトリはバグ報奨金プログラムの対象外](https://bounty.github.com/index.html#scope) であり、報奨金の対象にはなりませんが、ご報告いただいた内容は適切なメンテナーに伝え、修正に努めます。
 
-## Reporting Security Issues
+## セキュリティ問題の報告
 
-If you believe you have found a security vulnerability in any GitHub-owned repository, please report it to us through coordinated disclosure.
+GitHub が所有するリポジトリにセキュリティ上の脆弱性を発見した場合は、協調的な開示を通じてご報告ください。
 
-**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
+**セキュリティ脆弱性を公開の GitHub Issues、ディスカッション、プルリクエストで報告しないでください。**
 
-Instead, please send an email to opensource-security[@]github.com.
+代わりに、opensource-security[@]github.com までメールでご連絡ください。
 
-Please include as much of the information listed below as you can to help us better understand and resolve the issue:
+問題の理解と解決を迅速に行うため、可能な限り以下の情報を含めてください：
 
-  * The type of issue (e.g., buffer overflow, SQL injection, or cross-site scripting)
-  * Full paths of source file(s) related to the manifestation of the issue
-  * The location of the affected source code (tag/branch/commit or direct URL)
-  * Any special configuration required to reproduce the issue
-  * Step-by-step instructions to reproduce the issue
-  * Proof-of-concept or exploit code (if possible)
-  * Impact of the issue, including how an attacker might exploit the issue
+  * 問題の種類（例：バッファオーバーフロー、SQLインジェクション、クロスサイトスクリプティングなど）
+  * 問題が発生するソースファイルのフルパス
+  * 該当するソースコードの場所（タグ／ブランチ／コミット、または直接のURL）
+  * 再現に必要な特別な設定
+  * 再現手順
+  * 実証コードやエクスプロイトコード（可能な場合）
+  * 問題の影響範囲や攻撃者がどのように悪用できるか
 
-This information will help us triage your report more quickly.
+これらの情報は、報告内容の迅速なトリアージに役立ちます。
 
-## Policy
+## ポリシー
 
-See [GitHub's Safe Harbor Policy](https://docs.github.com/en/github/site-policy/github-bug-bounty-program-legal-safe-harbor#1-safe-harbor-terms)
+[GitHubのセーフハーバーポリシー](https://docs.github.com/en/github/site-policy/github-bug-bounty-program-legal-safe-harbor#1-safe-harbor-terms) をご覧ください。

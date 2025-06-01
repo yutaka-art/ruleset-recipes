@@ -1,11 +1,11 @@
-# Support 
+# サポート
 
-## How to file issues and get help
+## 問題の報告とサポートの受け方
 
-This project uses GitHub issues to track bugs and feature requests. Please search the existing issues before filing new issues to avoid duplicates. For new issues, file your bug or feature request as a new issue.
+このプロジェクトでは、バグや機能要望の追跡に GitHub Issues を使用しています。重複を避けるため、新しい Issue を作成する前に既存の Issue を検索してください。新しいバグや機能要望については、新しい Issue として報告してください。
 
-- **THIS PROJECT NAME** is under active development and maintained by GitHub staff. We will do our best to respond to support, feature requests, and community questions in a timely manner.
+- **このプロジェクト名** は GitHub スタッフによって積極的に開発・保守されています。サポート、機能要望、コミュニティからの質問にはできる限り迅速に対応いたします。
 
-## GitHub Support Policy
+## GitHub サポートポリシー
 
-Support for this project is limited to the resources listed above.
+本プロジェクトのサポートは、上記のリソースに限定されます。

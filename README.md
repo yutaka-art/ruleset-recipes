@@ -1,29 +1,29 @@
-# Ruleset recipes
-Starter rulesets are pre-baked to make it easy to get started with [repository rules](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets).
+# ルールセットレシピ
+スタータールールセットは、[リポジトリルール](https://docs.github.com/ja/repositories/configuring-branches-and-merges-in-your-repository/managing-rulesets/about-rulesets) を簡単に始められるように事前に用意されています。
 
-## What is a ruleset?
+## ルールセットとは？
 
-A ruleset is a named list of rules that applies to a repository. You can create rulesets to control how people interact with selected branches and tags in a repository. You can control things like who can push commits to a particular branch or who can delete or rename a tag. For example, you could set up a ruleset for your repository's feature branch that requires signed commits and blocks force pushes for all users except repository administrators.
+ルールセットは、リポジトリに適用される名前付きのルール一覧です。ルールセットを作成することで、リポジトリ内の特定のブランチやタグに対する操作方法を制御できます。例えば、特定のブランチへのコミット権限や、タグの削除・リネーム権限などを管理できます。例として、フィーチャーブランチに対して署名付きコミットを必須にし、リポジトリ管理者以外の強制プッシュをブロックするルールセットを設定できます。
 
-## Get cooking
-1. Grab a copy of this repo
- - ⬆️ top click `< > Code`
- - Pick your favorite way to clone, like [GitHub CLI](https://cli.github.com/), or download the ZIP.    
-2. To get started, visit your favorite repository or organization you have admin access to.
- - Head to ⚙️Settings > Rules > Rulesets
- - Select New Ruleset > Import a ruleset
- - Browse to your local clone of the ruleset-recipes you want to import
- - Review the imported ruleset and save your changes!
- - Success! 🎉
+## はじめ方
+1. このリポジトリをコピーします
+ - ⬆️ 上部の `< > Code` をクリック
+ - [GitHub CLI](https://cli.github.com/) など好きな方法でクローン、または ZIP をダウンロードしてください。
+2. 管理権限のあるリポジトリまたは組織にアクセスします。
+ - ⚙️設定 > ルール > ルールセット へ移動
+ - 「新しいルールセット」>「ルールセットをインポート」を選択
+ - インポートしたいルールセットレシピのローカルクローンを選択
+ - インポート内容を確認し、変更を保存！
+ - 完了です！🎉
 
-### Video Example
-![Gif walking through the steps outline above to import a ruleset from a JSON file.](https://github.com/github/release-assets/assets/7575792/8806fa8c-b874-4a4e-97ef-4f8c238f4d29)
+### 動画例
+![上記手順に従って JSON ファイルからルールセットをインポートする様子のGIF。](https://github.com/github/release-assets/assets/7575792/8806fa8c-b874-4a4e-97ef-4f8c238f4d29)
 
-# Table of contents
-## Branch Rulesets
-- [Branch protection best practices](https://github.com/github/ruleset-recipes/blob/a1f8e53ec12857637e8762e689a3abc255ff2c2f/branch-rulesets/were-just-normal-repositories.json)
-- [Require Pull Requests and conventional commits](https://github.com/github/ruleset-recipes/blob/8cd19a8e06e6e523fffd43e4a59a554c210dcbe2/branch-rulesets/PRs%20and%20commits.json)
-- [Organization ruleset: One Rule to rule them all](https://github.com/github/ruleset-recipes/blob/8cd19a8e06e6e523fffd43e4a59a554c210dcbe2/branch-rulesets/org-rulesets/one-ruleset-to-rule-them-all.json)
-## Tag Rulesets
-- [Prevent Tag Deletions](https://github.com/github/ruleset-recipes/blob/a1f8e53ec12857637e8762e689a3abc255ff2c2f/tag-rulesets/prevent-tag-delete.json)
-- [Organization ruleset: requiring semantic versioning and prevents deletion for all tags](https://github.com/github/ruleset-recipes/blob/ac4b5ebc05219bb07de10f6094ad9ae8215bd39c/tag-rulesets/org-ruleset/tag-defaults.json)
+# 目次
+## ブランチルールセット
+- [ブランチ保護のベストプラクティス](https://github.com/github/ruleset-recipes/blob/a1f8e53ec12857637e8762e689a3abc255ff2c2f/branch-rulesets/were-just-normal-repositories.json)
+- [プルリクエストとコミットメッセージの規約を必須化](https://github.com/github/ruleset-recipes/blob/8cd19a8e06e6e523fffd43e4a59a554c210dcbe2/branch-rulesets/PRs%20and%20commits.json)
+- [組織ルールセット: すべてを統べる一つのルール](https://github.com/github/ruleset-recipes/blob/8cd19a8e06e6e523fffd43e4a59a554c210dcbe2/branch-rulesets/org-rulesets/one-ruleset-to-rule-them-all.json)
+## タグルールセット
+- [タグ削除の防止](https://github.com/github/ruleset-recipes/blob/a1f8e53ec12857637e8762e689a3abc255ff2c2f/tag-rulesets/prevent-tag-delete.json)
+- [組織ルールセット: すべてのタグにセマンティックバージョニングを要求し削除を防止](https://github.com/github/ruleset-recipes/blob/ac4b5ebc05219bb07de10f6094ad9ae8215bd39c/tag-rulesets/org-ruleset/tag-defaults.json)
